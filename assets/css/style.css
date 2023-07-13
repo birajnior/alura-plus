@@ -1,0 +1,130 @@
+:root {
+  --cor-primaria: #ffffff;
+  --cor-secundaria: #c0c0c0;
+  --cor-terciaria: #167bf7;
+  --cor-de-fundo: #00030c;
+  --fonte-primaria: "Inter", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+body {
+  background-color: var(--cor-de-fundo);
+  color: var(--cor-primaria);
+  font-family: var(--fonte-primaria);
+  font-weight: 400;
+  font-size: 1rem;
+  font-style: normal;
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.principal {
+  background-image: url(../img/background.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  align-items: center;
+  text-align: center;
+}
+
+.container__caixa {
+  margin: 0 6rem;
+}
+
+.container__titulo {
+  font-size: 1.75rem;
+  font-weight: 700;
+  text-align: center;
+  font-size: 1.75rem;
+  line-height: normal;
+}
+
+.container__imagem {
+  margin: 1rem 0 2rem 0;
+}
+
+.container__botao {
+  background-color: var(--cor-terciaria);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  color: var(--cor-primaria);
+  display: block;
+  text-align: center;
+  line-height: 150%;
+  text-decoration: none;
+  margin-bottom: 1rem;
+}
+
+.botao__secundario {
+  background-color: transparent;
+  border: 2px solid var(--cor-primaria);
+}
+
+.container__aviso {
+  color: #c0c0c0;
+  text-align: center;
+  font-size: 0.75rem;
+  line-height: normal;
+}
+
+.secundario {
+  align-items: center;
+  margin: 0 10rem;
+}
+
+.secundario__imagem {
+  width: 80%;
+}
+
+.descricao__titulo {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 0.5rem;
+}
+
+.descricao__texto {
+  font-size: 1rem;
+  line-height: 150%;
+  color: var(--cor-secundaria);
+}
+
+.secundario__botao {
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.container__descricao {
+  padding: 2rem;
+}
+
+.dispositivos {
+  text-align: center;
+}
+
+.dispositivos__titulo {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.dispositivos__lista {
+  display: flex;
+  justify-content: center;
+  margin: 5rem 0;
+}
+
+.dispositivos__lista__item {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 120%;
+}
