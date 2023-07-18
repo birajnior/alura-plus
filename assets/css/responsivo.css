@@ -1,0 +1,48 @@
+@media screen and (max-width: 768px) {
+  .container {
+    display: block;
+    background-image: none;
+    margin-top: 80px;
+  }
+
+  .container__caixa {
+    margin: 2rem 2rem;
+  }
+
+  .container__imagem {
+    width: 50vw;
+  }
+
+  .secundario {
+    margin: 0;
+    text-align: center;
+  }
+
+  .secundario__imagem {
+    width: 60vw;
+  }
+
+  .dispositivos__titulo {
+    font-size: 2.3rem;
+  }
+
+  .dispositivos  img {
+    width: 85%;
+  }
+
+  .dispositivos__lista__item {
+    font-size: 1.5rem;
+  }
+
+  .dispositivos__lista {
+    display: block;
+  }
+
+  .rodape__lista {
+    display: block;
+  }
+
+  .lista__link  {
+    margin-bottom: 0.8rem;
+  }
+}
